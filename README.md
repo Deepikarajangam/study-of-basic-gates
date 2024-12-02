@@ -78,7 +78,8 @@ assign g=~(a | b);
 assign h=~(a ^ b);
 endmodule 
  
-**Logic symbol & Truthtable**![image](https://github.com/user-attachments/assets/18157cea-8a10-4a32-8349-a453cfb2e546)
+**Logic symbol & Truthtable**
+![image](https://github.com/user-attachments/assets/18157cea-8a10-4a32-8349-a453cfb2e546)
 
 
 
