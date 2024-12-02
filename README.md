@@ -67,27 +67,29 @@ Y= A⊕B
 Program for logic gates and verify its truth table in quartus using Verilog programming
 
  Developed by: R.DEEPIKA RegisterNumber:24900220
- module one(a,b,c1,c2,c3,c4,c5,c6,c7);
+ module aaa(a,b,c,d,e,f,g,h);
 input a,b;
-output c1,c2,c3,c4,c5,c6,c7;
-assign c1=~a;
-assign c2=a&b;
-assign c3=a|b;
-assign c4=~(a&b);
-assign c5=~(a|b);
-assign c6=a^b;
-assign c7=~(a^b);
+output c,d,e,f,g,h;
+assign c=a & b;
+assign d=a | b;
+assign e=a ^ b;
+assign f=~(a & b);
+assign g=~(a | b);
+assign h=~(a ^ b);
 endmodule 
  
-**Logic symbol & Truthtable**![image](https://github.com/user-attachments/assets/f241fcd8-2f3c-457e-b873-71cd6645b617)
+**Logic symbol & Truthtable**![image](https://github.com/user-attachments/assets/18157cea-8a10-4a32-8349-a453cfb2e546)
 
 
-**RTL realization Output:**![Screenshot 2024-12-02 182954 one wave](https://github.com/user-attachments/assets/6959f77e-4837-430d-b622-32e9b6deaa32)
 
- **RTL**![Screenshot 2024-12-02 182138  one logic](https://github.com/user-attachments/assets/46b77806-9ebb-4d57-822b-635318a1c131)
+**RTL realization Output:**![image](https://github.com/user-attachments/assets/0d183a14-34f4-4a63-bf50-165274a0dbed)
+
+
+ **RTL**![image](https://github.com/user-attachments/assets/edc8755b-5f99-4649-8829-2f001aa90fdf)
+
 
 
 **Result:**
-The truth table of the specified logic gates(NOT,AND,OR,NOT,XOR,)was successfully implement and verified using verified using programming in Quartus ||.
+The truth table of the specified logic gates(AND,OR,NOT,NAND,NOR,XOR,XNOR)was successfully implement and verified using verified using programming in Quartus ||.
 
 
